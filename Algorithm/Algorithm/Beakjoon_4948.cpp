@@ -1,7 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
-int prime_number[123458] = { 0 };
+int prime_number[250001] = { 0 };
 
 int main()
 {
@@ -11,9 +11,9 @@ int main()
 	// 1. 2n만큼의 반복문을 돌려 시간복잡도를 낮추는 방식 사용
 	// 처리
 	// 출력
-	for (int i = 2; i <= 123456; i++)
+	for (int i = 2; i <= 250000; i++)
 	{
-		for (int j = 2; i * j <= 123456; j++)
+		for (int j = 2; i * j <= 250000; j++)
 		{
 			prime_number[i * j] = 1;
 		}
@@ -34,14 +34,8 @@ int main()
 			break;
 		}
 
-		int test = num * 2;
 
-		if (test > 123456)
-		{
-			test = 123456;
-		}
-
-		for (int i = num + 1; i <= test; i++)
+		for (int i = num + 1; i <= num*2; i++)
 		{
 			if (prime_number[i] == 0)
 			{
