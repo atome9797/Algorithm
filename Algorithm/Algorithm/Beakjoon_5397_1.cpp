@@ -18,7 +18,7 @@ int main()
 	// 2-1-4. 만약 커서의 위치가 줄의 마지막이 아니라면 커서 및 커서 오른쪽에 잇는 모든 문자는 오른쪽 한탄 이동한다.
 	// 처리
 	// 출력
-
+	
 	int test_case = 0;
 	cin >> test_case;
 
@@ -27,29 +27,32 @@ int main()
 		list<char> list1;
 		list<char>::iterator iter = list1.end();
 
-		string str = "";
-		cin >> str;
-
-		for (int i = 0; i < str.size(); i++)
+		while (1)
 		{
-
-			char ch = str[i];
-
-			if (ch == '-')
+			char a = cin.get(); //a에 입력한 문자 
+			int key = a;
+			
+			
+			//엔터
+			if (key == 13)
+			{
+				break;
+			} //백스페이스
+			else if (key == 8)
 			{
 				if (iter != list1.begin())
 				{
 					iter = list1.erase(--iter); //특정 시점의 포인터 노드를 삭제함
 				}
 			}// < 
-			else if (ch == '<')
+			else if (key == 60)
 			{
 				if (iter != list1.begin())
 				{
 					--iter; //이전 노드 주소를 받음
 				}
 			}// >
-			else if (ch == '>')
+			else if (key == 62)
 			{
 				if (iter != list1.end())
 				{
@@ -59,15 +62,14 @@ int main()
 			//기타
 			else
 			{
-				list1.insert(iter, ch); //특정 지점의 포인터 노드를 추가함
+				list1.insert(iter, (char)key); //특정 지점의 포인터 노드를 추가함
 			}
 
 		}
 
-
 		//-앞에 글자 있으면 삭제
 		//<>로 커서 움직이기
-
+		
 		for (list<char>::iterator iter = list1.begin(); iter != list1.end(); iter++)
 		{
 			cout << *iter;
