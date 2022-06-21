@@ -24,6 +24,7 @@ int main()
 
 	int ch = cin.get();
 	cout << ch << endl;
+	//키보드 아스키 코드 적용
 	
 
 	//for (int i = 0; i < test_case; i++)
