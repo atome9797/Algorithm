@@ -26,6 +26,9 @@ int main()
 	{
 		list1.push_back(editor[i]);
 	}
+
+	//push_front는 abcd 입력시 => d c b a 순으로 저장됨
+	//push_back은 abcd 입력시 => a b c d 순으로 저장됨
 	
 	int count = 0;
 	cin >> count;
