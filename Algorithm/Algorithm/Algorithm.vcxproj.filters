@@ -87,5 +87,20 @@
     <ClCompile Include="Beakjoon_4949_stack.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Beakjoon_2798.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="test2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Beakjoon_2231.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Beakjoon_7568.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Beakjoon_1018.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
