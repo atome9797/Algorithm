@@ -15,124 +15,130 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Beakjoon_1152.cpp">
+    <ClCompile Include="..\Algorithm2\test2.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Beakjoon_1406.cpp">
+    <ClCompile Include="..\Algorithm2\Beakjoon_1152.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Beakjoon_1406_answer.cpp">
+    <ClCompile Include="..\Algorithm2\Beakjoon_1406.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Beakjoon_1654.cpp">
+    <ClCompile Include="..\Algorithm2\Beakjoon_1406_answer.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Beakjoon_1920.cpp">
+    <ClCompile Include="..\Algorithm2\Beakjoon_1654.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Beakjoon_1929.cpp">
+    <ClCompile Include="..\Algorithm2\Beakjoon_1920.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Beakjoon_2110.cpp">
+    <ClCompile Include="..\Algorithm2\Beakjoon_1929.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Beakjoon_2110_re.cpp">
+    <ClCompile Include="..\Algorithm2\Beakjoon_2110.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Beakjoon_2164.cpp">
+    <ClCompile Include="..\Algorithm2\Beakjoon_2110_re.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Beakjoon_2231.cpp">
+    <ClCompile Include="..\Algorithm2\Beakjoon_2164.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Beakjoon_2581.cpp">
+    <ClCompile Include="..\Algorithm2\Beakjoon_2231.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Beakjoon_2775.cpp">
+    <ClCompile Include="..\Algorithm2\Beakjoon_2581.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Beakjoon_2775_answer.cpp">
+    <ClCompile Include="..\Algorithm2\Beakjoon_2775.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Beakjoon_2798.cpp">
+    <ClCompile Include="..\Algorithm2\Beakjoon_2775_answer.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Beakjoon_2805.cpp">
+    <ClCompile Include="..\Algorithm2\Beakjoon_2798.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Beakjoon_2805_re.cpp">
+    <ClCompile Include="..\Algorithm2\Beakjoon_2805.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Beakjoon_2839.cpp">
+    <ClCompile Include="..\Algorithm2\Beakjoon_2805_re.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Beakjoon_2839_answer.cpp">
+    <ClCompile Include="..\Algorithm2\Beakjoon_2839.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Beakjoon_4948.cpp">
+    <ClCompile Include="..\Algorithm2\Beakjoon_2839_answer.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Beakjoon_4948_answer.cpp">
+    <ClCompile Include="..\Algorithm2\Beakjoon_4948.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Beakjoon_4949_stack.cpp">
+    <ClCompile Include="..\Algorithm2\Beakjoon_4948_answer.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Beakjoon_5397.cpp">
+    <ClCompile Include="..\Algorithm2\Beakjoon_4949_stack.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Beakjoon_5397_1.cpp">
+    <ClCompile Include="..\Algorithm2\Beakjoon_5397.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Beakjoon_5397_answer.cpp">
+    <ClCompile Include="..\Algorithm2\Beakjoon_5397_1.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Beakjoon_7568.cpp">
+    <ClCompile Include="..\Algorithm2\Beakjoon_5397_answer.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Beakjoon_9012_stack.cpp">
+    <ClCompile Include="..\Algorithm2\Beakjoon_7568.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Beakjoon_9020.cpp">
+    <ClCompile Include="..\Algorithm2\Beakjoon_9012_stack.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Beakjoon_10757.cpp">
+    <ClCompile Include="..\Algorithm2\Beakjoon_9020.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Beakjoon_10757_answer.cpp">
+    <ClCompile Include="..\Algorithm2\Beakjoon_10757.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Beakjoon_10773_stack.cpp">
+    <ClCompile Include="..\Algorithm2\Beakjoon_10757_answer.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Beakjoon_10816.cpp">
+    <ClCompile Include="..\Algorithm2\Beakjoon_10773_stack.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Beakjoon_10828_stack.cpp">
+    <ClCompile Include="..\Algorithm2\Beakjoon_10816.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Beakjoon_10866.cpp">
+    <ClCompile Include="..\Algorithm2\Beakjoon_10828_stack.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Beakjoon_11653.cpp">
+    <ClCompile Include="..\Algorithm2\Beakjoon_10866.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Beakjoon_11866_answer.cpp">
+    <ClCompile Include="..\Algorithm2\Beakjoon_11653.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Beakjoon_11866_answer2.cpp">
+    <ClCompile Include="..\Algorithm2\Beakjoon_11866_answer.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Beakjoon_18258.cpp">
+    <ClCompile Include="..\Algorithm2\Beakjoon_11866_answer2.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Beckjoon_1978.cpp">
+    <ClCompile Include="..\Algorithm2\Beakjoon_18258.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="test.cpp">
+    <ClCompile Include="..\Algorithm2\Beckjoon_1978.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="test2.cpp">
+    <ClCompile Include="..\Algorithm2\test.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Beakjoon_2606.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Beakjoon_2667.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
