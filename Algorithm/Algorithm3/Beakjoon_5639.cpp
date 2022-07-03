@@ -1,39 +1,50 @@
-#include <stdio.h>
-#include <queue>
-
-class Set
-{
-public:
-	Set() = default;
-struct Node
-{
-	int data = 0;
-	Node* parent = nullptr;
-	Node* left = nullptr;
-	Node* right = nullptr;
-};
-
-private:
-	int size = 0;
-	Node* _root = nullptr;//구조체 선언
-
-};
-
-
+#include <iostream>
 using namespace std;
 
-void insert(int root)
+struct Node
 {
-	Set st = new Set();
-	if (_root == nullptr)
+	int data;
+	Node* left;
+	Node* right;
+};
+
+
+Node* insert(Node* root, int value)
+{
+	//초기값이면 새로운 노드 생성해준다.
+	if (root == nullptr)
 	{
-		Node* newNode = new Node(root);
+		root = new Node();
+		root->data = value;
+		root->left = nullptr;
+		root->right = nullptr;
+	}
+	else if (root->data >= value) //value가 작을땐 left에 넣는다.
+	{
+		root->left = insert(root->left, value);
+	}
+	else
+	{
+		root->right = insert(root->right, value);
 	}
 
-	Node *preNode = _root;
-	
+	return root; //초기값 항상유지
 }
 
+void endCicle(Node* root)
+{
+	if (root->left != nullptr)
+	{
+		endCicle(root->left);
+	}
+
+	if (root->right != nullptr)
+	{
+		endCicle(root->right);
+	}
+
+	cout << root->data << "\n";
+}
 
 int main()
 {
@@ -58,16 +69,21 @@ int main()
 	// 3-3. root는 계속 root포인터를 가지고 있으므로, 후위순회로 출력가능하다.
 	// 3-3-1. 후위 순회의 경우 오른쪽과 왼쪽이 둘다 널일때 데이터를출력할수 있다.
 	// 출력
-	//https://imnotabear.tistory.com/224
 
 	int input = 0;
 
 
 	//입력 하고 싶은 만큼 반복해서 입력할수있음 그리고 결과값이 while 안에 존재하게됨
-	while (scanf("%d", &input) != EOF) { 
-		insert(input);
+	Node* root = nullptr;
+	while (cin >> input) {
+		if (input == EOF)
+		{
+			break;
+		}
+		root = insert(root, input);
 	}
 
+	endCicle(root);
 
 
 	return 0;
