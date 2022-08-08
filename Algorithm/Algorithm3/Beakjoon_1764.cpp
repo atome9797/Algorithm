@@ -34,7 +34,7 @@ int cache[MAX][4][4];
 int covered(int idx, int prev, int last) //previous(이전 블록), last(N-1 블록)의 상태
 
 {
-
+	
 	int& result =
 		cache[idx][prev][last];
 
