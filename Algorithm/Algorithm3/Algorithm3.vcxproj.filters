@@ -282,5 +282,8 @@
     <ClCompile Include="Beakjoon_1655.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Beakjoon_24479.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
